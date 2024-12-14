@@ -1,6 +1,7 @@
 #!/bin/bash
 
 #MASSE MASSE Paul-Basthylle
+#22U2001
 
 #j'utilise la logique du premier script amélioré, mais le code 
 #c'est l'IA
