@@ -1,0 +1,28 @@
+Simulation d'un problème pour utiliser PAM
+
+Gestion des comptes et des privilèges dans une entreprise hiérachisée:
+
+-Système pilote
+-système d'informations
+-Système opérant
+
+Mon objectif:
+
+est d'écrire le script automatique permettant de gérer cela, les droits, les codes d'acces, les privilèges, les recrutements ...
+
+Mes Taches:
+
+-cretion des comptes 
+-suppression
+-passer a un autre grade(privilège augmente)
+-attribuer les droits
+
+
+EX: Groupes: cadres , patrons ,  employés , services
+    
+    privileges: ...
+    autorisations : EX: code d'acces EUID1213 aux patrons et aux cadres mais pas aux autres...
+
+lucas se supprime automatiquement lorsque son contrat expire et il y'a plusieurs droit d'acces et les patrons ont tous les droits donc je dois definir une liste de 05 droits. et lors de la creation, je dois connaitre en fonction de son type (employés , ...) et attribué des droits
+
+EX: le cadre Paul a un contrat de O3 mois , il a O4 droits sur 05

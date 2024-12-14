@@ -1,0 +1,4 @@
+Masse Paul  3  cadre
+Lemoine Sara  2  employe
+Dupont Jean  5  patron
+
